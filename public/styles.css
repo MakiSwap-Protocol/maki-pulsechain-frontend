@@ -1,0 +1,44 @@
+#networkDesktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media (max-width: 500px) {
+    #networkDesktop {
+      display: none;
+    }
+  }
+  
+  #networkMobile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    line-height: 2px;
+  }
+
+  @media (min-width: 500px) {
+    #networkMobile {
+      display: none;         
+    }
+  }
+  .connectButton {
+    position: relative;
+    border-color: transparent;
+    background-color: transparent !important;
+  }
+  .connectButton::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-width: inherit;
+    border-radius: inherit; 
+    padding: 2px;
+    background: linear-gradient(93.42deg, #F70139 -0.25%, #BA06F0 50.27%, #00D3F0 99.75%);
+    -webkit-mask: 
+      linear-gradient(#fff 0 0) content-box, 
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+  }
