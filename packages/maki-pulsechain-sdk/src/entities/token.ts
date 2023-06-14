@@ -57,6 +57,6 @@ export function currencyEquals(currencyA: Currency, currencyB: Currency): boolea
 }
 
 export const WPLS = {
-  [ChainId.TESTNET]: new Token(ChainId.TESTNET, '0x70499adEBB11Efd915E3b69E700c331778628707', 18, 'WPLS', 'Wrapped Pulse'),
+  [ChainId.TESTNET]: new Token(ChainId.TESTNET, '0xcF1Fc503CA35618E9b4C08b7847980b3e10FB53B', 18, 'WPLS', 'Wrapped Pulse'),
   [ChainId.MAINNET]: new Token(ChainId.MAINNET, '0xA1077a294dDE1B09bB078844df40758a5D0f9a27', 18, 'WPLS', 'Wrapped Pulse')
 }

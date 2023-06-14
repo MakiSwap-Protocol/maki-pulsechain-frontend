@@ -12,10 +12,10 @@ import { Token } from './entities/token'
 let TOKEN_DECIMALS_CACHE: { [chainId: number]: { [address: string]: number } } = {
   [ChainId.MAINNET]: {
     /* ADD TOKENS HERE */
-    // '0xBe85A2323cc554D26047172CC1F8AF7c715415b6': 6,  // usd
-    // '0x70499adEBB11Efd915E3b69E700c331778628707': 18, // wpls
-    // '0x5B2E31bebdc3A0fE2FD1A2F147e2a99994F22800': 18, // maki
-    // '0xdf08630D0Ae0110754CA04694d2645C0f170E54b': 18  // soy
+    // '0x3e0Ad60c6D427191D66B6D168ddeF82A66F573B0': 6,  // usd
+    // '0xcF1Fc503CA35618E9b4C08b7847980b3e10FB53B': 18, // wpls
+    // '0xcF678682b56a65CcdeFe70Cd5202Ddb40Ae25658': 18, // maki
+    // '0x9bBEfE9Cb3307284f78F505A14059E99aD9388C6': 18  // soy
   }
 }
 

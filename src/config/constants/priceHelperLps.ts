@@ -14,7 +14,7 @@ const priceHelperLps: FarmConfig[] = [
     lpSymbol: 'MAKI-USDT',
     lpAddresses: {
       // 369: '',
-      943: '0x3718388570979c298bdDE7e04CA3De4CF074d895',
+      943: '0x3fd2DC6C684d5F5Ff2C1185504283b4fd2D729b9',
     },
     token: tokens.maki,
     quoteToken: tokens.usdt,

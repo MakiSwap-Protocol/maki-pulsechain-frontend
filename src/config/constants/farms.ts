@@ -8,7 +8,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'MAKI',
     lpAddresses: {
       369: '',
-      943: '0x5B2E31bebdc3A0fE2FD1A2F147e2a99994F22800',
+      943: '0xcF678682b56a65CcdeFe70Cd5202Ddb40Ae25658',
     },
     token: tokens.maki,
     quoteToken: tokens.wpls,
@@ -19,7 +19,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'MAKI-PLS',
     lpAddresses: {
       369: '',
-      943: '0x4b16160F746C8417E414b5307F1C0B68E5923109',
+      943: '0x755a93Cc340a854Bb296C015267fc86159170C9E',
     },
     token: tokens.maki,
     quoteToken: tokens.wpls,
@@ -30,7 +30,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'MAKI-USDT',
     lpAddresses: {
       369: '',
-      943: '0x3718388570979c298bdDE7e04CA3De4CF074d895',
+      943: '0x3fd2DC6C684d5F5Ff2C1185504283b4fd2D729b9',
     },
     token: tokens.maki,
     quoteToken: tokens.usdt,
@@ -41,7 +41,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'USDT-PLS',
     lpAddresses: {
       369: '',
-      943: '0x0e5dd43Ca1225bE238285f761dE03F6E25f146b0',
+      943: '0x28ce0a51391c1F992946fBf578955ED5dc4d3c11',
     },
     token: tokens.usdt,
     quoteToken: tokens.wpls,

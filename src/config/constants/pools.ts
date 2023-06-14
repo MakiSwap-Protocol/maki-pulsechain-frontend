@@ -7,8 +7,8 @@ const pools: PoolConfig[] = [
     stakingToken: tokens.maki,
     earningToken: tokens.maki,
     contractAddress: { // MASTERCHEF
-      369: '0x773D596754637405E37b652873F938e0Ac7EDFB8',
-      943: '0x773D596754637405E37b652873F938e0Ac7EDFB8'
+      369: '0xcCcfC0a7cf56fEC62F971BE98Db29EB0641FdDCE',
+      943: '0xcCcfC0a7cf56fEC62F971BE98Db29EB0641FdDCE'
     },
     poolCategory: PoolCategory.CORE,
     harvest: true,

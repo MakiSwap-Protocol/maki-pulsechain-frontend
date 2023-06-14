@@ -75,10 +75,10 @@ export const MIN_PLS: JSBI = JSBI.exponentiate(JSBI.BigInt(10), JSBI.BigInt(16))
 // export const BETTER_TRADE_LINK_THRESHOLD = new Percent(JSBI.BigInt(75), JSBI.BigInt(10000))
 
 
-export const USDT_MAIN = new Token(ChainId.MAINNET, '0xBe85A2323cc554D26047172CC1F8AF7c715415b6', 6, 'USDT', 'USDT');
+export const USDT_MAIN = new Token(ChainId.MAINNET, '0x3e0Ad60c6D427191D66B6D168ddeF82A66F573B0', 6, 'USDT', 'USDT');
 // export const USDC_MAIN = new Token(ChainId.MAINNET, '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174', 6, 'USDC', 'USD Coin (PoS)');
 
-export const USDT_TEST = new Token(ChainId.TESTNET, '0xBe85A2323cc554D26047172CC1F8AF7c715415b6', 6, 'USDT', 'USDT')
+export const USDT_TEST = new Token(ChainId.TESTNET, '0x3e0Ad60c6D427191D66B6D168ddeF82A66F573B0', 6, 'USDT', 'USDT')
 
 
 
@@ -113,13 +113,13 @@ export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {
   [ChainId.MAINNET]: [
     [
-      new Token(ChainId.MAINNET, '0x5B2E31bebdc3A0fE2FD1A2F147e2a99994F22800', 18, 'MAKI', 'MakiSwap'),
+      new Token(ChainId.MAINNET, '0xcF678682b56a65CcdeFe70Cd5202Ddb40Ae25658', 18, 'MAKI', 'MakiSwap'),
       WPLS[ChainId.MAINNET]
     ],
   ],
   [ChainId.TESTNET]: [
     [
-      new Token(ChainId.TESTNET, '0x5B2E31bebdc3A0fE2FD1A2F147e2a99994F22800', 18, 'MAKI', 'MakiSwap'),
+      new Token(ChainId.TESTNET, '0xcF678682b56a65CcdeFe70Cd5202Ddb40Ae25658', 18, 'MAKI', 'MakiSwap'),
       WPLS[ChainId.TESTNET]
     ],
   ],
