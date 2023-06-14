@@ -5,6 +5,7 @@ import Container from 'components/Layout/Container'
 
 const Outer = styled(Box)<{ background?: string }>`
   background: ${({ theme, background }) => background || theme.colors.gradients.bubblegum};
+  background-size: cover;
 `
 
 const Inner = styled(Container)`
