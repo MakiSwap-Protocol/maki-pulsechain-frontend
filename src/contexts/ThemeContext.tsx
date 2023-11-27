@@ -23,8 +23,8 @@ const ThemeContextProvider = ({ children }) => {
 
   return (
     <ThemeContext.Provider value={{ isDark, toggleTheme }}>
-      {/* <SCThemeProvider theme={isDark ? dark : light}>{children}</SCThemeProvider> */}
-      <SCThemeProvider theme={defaultTheme}>{children}</SCThemeProvider>
+      <SCThemeProvider theme={isDark ? defaultTheme : light}>{children}</SCThemeProvider>
+      {/* <SCThemeProvider theme={defaultTheme}>{children}</SCThemeProvider> */}
     </ThemeContext.Provider>
   )
 }

@@ -42,3 +42,7 @@
     -webkit-mask-composite: xor;
     mask-composite: exclude;
   }
+
+  .conBtnLight {
+    color: #357ce1 !important;
+  }

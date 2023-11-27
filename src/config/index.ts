@@ -75,10 +75,10 @@ export const MIN_PLS: JSBI = JSBI.exponentiate(JSBI.BigInt(10), JSBI.BigInt(16))
 // export const BETTER_TRADE_LINK_THRESHOLD = new Percent(JSBI.BigInt(75), JSBI.BigInt(10000))
 
 
-export const USDT_MAIN = new Token(ChainId.MAINNET, '0x3e0Ad60c6D427191D66B6D168ddeF82A66F573B0', 6, 'USDT', 'USDT');
-// export const USDC_MAIN = new Token(ChainId.MAINNET, '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174', 6, 'USDC', 'USD Coin (PoS)');
+export const USDT_MAIN = new Token(ChainId.MAINNET, '0xdAC17F958D2ee523a2206206994597C13D831ec7', 6, 'USDT', 'Tether USD');
+export const USDC_MAIN = new Token(ChainId.MAINNET, '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174', 6, 'USDC', 'USD Coin');
 
-export const USDT_TEST = new Token(ChainId.TESTNET, '0x3e0Ad60c6D427191D66B6D168ddeF82A66F573B0', 6, 'USDT', 'USDT')
+export const USDT_TEST = new Token(ChainId.TESTNET, '0x3e0ad60c6d427191d66b6d168ddef82a66f573b0', 6, 'USDT', 'USDT')
 
 
 
@@ -113,17 +113,18 @@ export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {
   [ChainId.MAINNET]: [
     [
-      new Token(ChainId.MAINNET, '0xcF678682b56a65CcdeFe70Cd5202Ddb40Ae25658', 18, 'MAKI', 'MakiSwap'),
+      new Token(ChainId.MAINNET, '0xcf678682b56a65ccdefe70cd5202ddb40ae25658', 18, 'MAKI', 'MakiSwap'),
       WPLS[ChainId.MAINNET]
     ],
   ],
   [ChainId.TESTNET]: [
     [
-      new Token(ChainId.TESTNET, '0xcF678682b56a65CcdeFe70Cd5202Ddb40Ae25658', 18, 'MAKI', 'MakiSwap'),
+      new Token(ChainId.TESTNET, '0xcf678682b56a65ccdefe70cd5202ddb40ae25658', 18, 'MAKI', 'MakiSwap'),
       WPLS[ChainId.TESTNET]
     ],
   ],
 }
+
 
 // used for display in the default list when adding liquidity
 export const SUGGESTED_BASES: ChainTokenList = {

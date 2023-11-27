@@ -20,7 +20,9 @@ type PublicFarmData = {
 
 const fetchFarm = async (farm: Farm): Promise<PublicFarmData> => {
   const { pid, lpAddresses, token, quoteToken } = farm
+
   const lpAddress = getAddress(lpAddresses)
+  
   const calls = [
     // Balance of token in the LP contract
     {
@@ -93,7 +95,7 @@ const fetchFarm = async (farm: Farm): Promise<PublicFarmData> => {
   const allocPoint = info ? new BigNumber(info.allocPoint?._hex) : BIG_ZERO
   const poolWeight = totalAllocPoint ? allocPoint.div(new BigNumber(totalAllocPoint)) : BIG_ZERO
 
-  return {
+  const aa = {
     tokenAmountMc: tokenAmountMc.toJSON(),
     quoteTokenAmountMc: quoteTokenAmountMc.toJSON(),
     tokenAmountTotal: tokenAmountTotal.toJSON(),
@@ -104,6 +106,10 @@ const fetchFarm = async (farm: Farm): Promise<PublicFarmData> => {
     poolWeight: poolWeight.toJSON(),
     multiplier: `${allocPoint.div(100).toString()}X`,
   }
+
+  console.log('AAAAA', pid, aa);
+
+  return aa;
 }
 
 export default fetchFarm

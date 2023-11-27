@@ -13,8 +13,8 @@ const priceHelperLps: FarmConfig[] = [
     pid: 2,
     lpSymbol: 'MAKI-USDT',
     lpAddresses: {
-      // 369: '',
-      943: '0x3fd2DC6C684d5F5Ff2C1185504283b4fd2D729b9',
+      369: '0x605a4cc6f8abd7a2d8b10b34258080bfb7a6ae37',
+      943: '0x3fd2dc6c684d5f5ff2c1185504283b4fd2d729b9',
     },
     token: tokens.maki,
     quoteToken: tokens.usdt,

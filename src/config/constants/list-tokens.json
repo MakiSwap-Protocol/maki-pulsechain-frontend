@@ -17,10 +17,64 @@
     "token",
     "list"
   ],
-  "tokens": [ 
+  "tokens": [
 
     {
-      "address": "0xcF678682b56a65CcdeFe70Cd5202Ddb40Ae25658",
+      "address": "0x10cf8b3d748a38f6f2063e8a30f44c9d674e4fe2",
+      "chainId": 369,
+      "name": "MakiSwap",
+      "symbol": "MAKI",
+      "decimals": 18,
+      "logoURI": "/images/coins/MAKI.png"
+    },
+
+    {
+      "address": "0xdf08630d0ae0110754ca04694d2645c0f170e54b",
+      "chainId": 369,
+      "name": "SOYBAR",
+      "symbol": "SOY",
+      "decimals": 18,
+      "logoURI": "/images/coins/SOY.png"
+    },
+    
+    {
+      "address": "0xa1077a294dde1b09bb078844df40758a5d0f9a27",
+      "chainId": 369,
+      "name": "Wrapped Pulse",
+      "symbol": "wPLS",
+      "decimals": 18,
+      "logoURI": "/images/coins/PULSE.png"
+    },
+
+    {
+      "address": "0x0cb6f5a34ad42ec934882a05265a7d5f59b51a2f",
+      "chainId": 369,
+      "name": "USDT",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "/images/coins/USDT.png"
+    },
+
+    {
+      "address": "0x15d38573d2feeb82e7ad5187ab8c1d52810b1f07",
+      "chainId": 369,
+      "name": "USDC",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "/images/coins/USDT.png"
+    },
+
+
+
+
+
+
+
+
+
+
+    {
+      "address": "0xcf678682b56a65ccdefe70cd5202ddb40ae25658",
       "chainId": 943,
       "name": "MakiSwap",
       "symbol": "MAKI",
@@ -29,7 +83,7 @@
     },
 
     {
-      "address": "0x9bBEfE9Cb3307284f78F505A14059E99aD9388C6",
+      "address": "0x9bbefe9cb3307284f78f505a14059e99ad9388c6",
       "chainId": 943,
       "name": "SOYBAR",
       "symbol": "SOY",
@@ -38,7 +92,7 @@
     },
     
     {
-      "address": "0xcF1Fc503CA35618E9b4C08b7847980b3e10FB53B",
+      "address": "0xcf1fc503ca35618e9b4c08b7847980b3e10fb53b",
       "chainId": 943,
       "name": "Wrapped Pulse",
       "symbol": "wPLS",
@@ -47,7 +101,7 @@
     },
 
     {
-      "address": "0x3e0Ad60c6D427191D66B6D168ddeF82A66F573B0",
+      "address": "0x3e0ad60c6d427191d66b6d168ddef82a66f573b0",
       "chainId": 943,
       "name": "USDT",
       "symbol": "USDT",

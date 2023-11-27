@@ -98,28 +98,28 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
   //   icon: 'BridgeIcon',
   //   href: '/bridge',
   // },
-  {
-    label: t('Info'),
-    icon: 'InfoIcon',
-    items: [
-      {
-        label: t('Overview'),
-        href: 'https://polygon-info.makiswap.com',
-      },
-      {
-        label: t('Tokens'),
-        href: 'https://polygon-info.makiswap.com/tokens',
-      },
-      {
-        label: t('Pairs'),
-        href: 'https://polygon-info.makiswap.com/pairs',
-      },
-      {
-        label: t('Accounts'),
-        href: 'https://polygon-info.makiswap.com/accounts',
-      },
-    ],
-  },
+  // {
+  //   label: t('Info'),
+  //   icon: 'InfoIcon',
+  //   items: [
+  //     {
+  //       label: t('Overview'),
+  //       href: 'https://polygon-info.makiswap.com',
+  //     },
+  //     {
+  //       label: t('Tokens'),
+  //       href: 'https://polygon-info.makiswap.com/tokens',
+  //     },
+  //     {
+  //       label: t('Pairs'),
+  //       href: 'https://polygon-info.makiswap.com/pairs',
+  //     },
+  //     {
+  //       label: t('Accounts'),
+  //       href: 'https://polygon-info.makiswap.com/accounts',
+  //     },
+  //   ],
+  // },
   {
     label: t('More'),
     icon: 'MoreIcon',
